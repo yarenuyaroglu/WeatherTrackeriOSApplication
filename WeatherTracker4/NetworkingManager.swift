@@ -53,7 +53,7 @@ struct WeatherCombinedData {
 
 class NetworkingManager {
     
-    private let apiKey = "e19a53b0afa235b26ece5b82f7c452c7"
+    
     
     // OpenWeather current weather endpoint (city name ile)
     private func currentWeatherURL(for city: String) -> String {
